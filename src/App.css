@@ -2,9 +2,11 @@
   display: flex;
   width: 100vw;
   height: 300vh;
-  justify-content: space-around;
-  align-items: flex-start;
+  /*justify-content: center; */
+  align-items: center;
+  flex-direction: column;
   overflow: scroll;
+  gap: 3rem;
 }
 
 .Drag {
@@ -13,4 +15,22 @@
   height: 8rem;
   border-radius: 10px;
   cursor: pointer;
+  touch-action: none;
+}
+
+.Drag--2 {
+  background: pink;
+}
+
+.Drag--4 {
+  background: violet;
+}
+
+.Swipe {
+  background: yellowgreen;
+  width: 10rem;
+  height: 10rem;
+  border-radius: 10px;
+  cursor: pointer;
+  touch-action: none;
 }
