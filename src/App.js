@@ -2,6 +2,7 @@ import React, { useState } from 'react'
 import { useDrag } from '@use-gesture/react'
 
 import Drag from './Drag'
+import DragAndDrop from './DragAndDrop'
 import logo from './logo.svg'
 
 import './App.css';
@@ -28,7 +29,7 @@ function App() {
         </div>
       </div>
       <Drag />
-      
+      <DragAndDrop />
     </div>
   );
 }

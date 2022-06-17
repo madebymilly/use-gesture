@@ -56,3 +56,24 @@
   cursor: pointer;
   touch-action: none;
 }
+
+.DragAndDrop {
+  background: blueviolet;
+  width: 7rem;
+  height: 7rem;
+  border-radius: 10px;
+  cursor: pointer;
+  touch-action: none;
+  position: relative;
+  z-index: 2;
+}
+
+.DragAndDropReceiver {
+  margin: 2rem;
+  background: lightgrey;
+  width: 10rem;
+  height: 10rem;
+  border-radius: 10px;
+  position: relative;
+  z-index: 1;
+}
